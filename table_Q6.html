@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styale.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 200px;
+            text-align: center;
+            border: 2px solid white;
+            /* width: 100%; */
+        }
+
+        table {
+            background-color: rgb(12, 179, 12);
+            border-collapse: collapse;
+            color: white;
+            border: 2px solid white;
+
+        }
+
+        table,
+        th,
+        td {
+            width: 600px;
+            height: 30px;
+            border: 2px solid white;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .black {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="2" cellpadding="5" cellspacing="2">
+        <caption>Europeon Rouletee</caption>
+        <tr>
+            <td rowspan="5">0</td>
+            <td class="red">3</td>
+            <td class="black">6</td>
+            <td class="red">9</td>
+            <td class="red">12</td>
+            <td class="black">15</td>
+            <td class="red">18</td>
+            <td class="red">21</td>
+            <td class="black">24</td>
+            <td class="red">27</td>
+            <td class="red">30</td>
+            <td class="black">33</td>
+            <td class="red">36</td>
+            <td colspan="2"> 2 to 1</td>
+        </tr>
+        <tr>
+            <td class="black">2</td>
+            <td class="red" class="red">5</td>
+            <td class="black">8</td>
+            <td class="black">11</td>
+            <td class="red">14</td>
+            <td class="black">17</td>
+            <td class="black">20</td>
+            <td class="red">23</td>
+            <td class="black">26</td>
+            <td class="black">29</td>
+            <td class="red">32</td>
+            <td class="black">35</td>
+            <td colspan="2">2 to 1</td>
+        </tr>
+        <tr>
+            <td class="red">1</td>
+            <td class="black">4</td>
+            <td class="red">7</td>
+            <td class="black">10</td>
+            <td class="black">13</td>
+            <td class="red">16</td>
+            <td class="red">19</td>
+            <td class="black">22</td>
+            <td class="red">25</td>
+            <td class="black">28</td>
+            <td class="black">31</td>
+            <td class="red">34</td>
+            <td colspan="2">2 to 1</td>
+        </tr>
+        <tr>
+            <td colspan="4">1to 12</td>
+            <td colspan="4">2to 12</td>
+            <td colspan="4">3rd to 12</td>
+            <td rowspan="2"></td>
+
+        </tr>
+        <tr>
+            <td colspan="2">1 to 12</td>
+            <td colspan="2">even</td>
+            <td colspan="2" class="red"></td>
+            <td colspan="2" class="black"></td>
+            <td colspan="2">Odd </td>
+            <td colspan="2">19 to 36</td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .nav ul a li {
+            list-style: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        .nav ul a {
+            text-decoration: none;
+        }
+
+        .nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 12vw;
+            padding-top: 13px;
+
+
+        }
+
+        .nav {
+            padding: 14px;
+            background-color: black;
+            color: white;
+
+        }
+
+        .image-slider {
+            padding-top: 6px;
+            background-color: rgb(111, 243, 111);
+            display: grid;
+
+        }
+
+        .image1 {
+            width: 255px;
+            height: 255px;
+            border-radius: 50%;
+        }
+
+        .gallery {
+            /* margin-top: 5px; */
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 25px;
+            padding: 8px;
+            background-color: rgb(236, 236, 190);
+            padding-left: 11vw;
+            /* justify-content: space-around; */
+
+        }
+
+        .gallery img {
+            height: 305px;
+            width: 330px;
+        }
+
+        .about-us {
+            padding-top: 5vh;
+            background-color: rgb(153, 233, 157);
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .para {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        table {
+            text-align: center;
+            margin: auto;
+            padding-top: 10px;
+            background-color: pink;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="conatiner">
+        <div class="nav">
+            <ul>
+                <a href="#home">
+                    <li>Home</li>
+                </a>
+                <a href="#gallery">
+                    <li>Gallery</li>
+                </a>
+
+                <a href="#about">
+                    <li>About</li>
+                </a>
+
+
+                <a href="#contact">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div class="image-slider" id="home">
+            <marquee behavior="" direction="image-slider" scrollamount="29"><img
+                    src="https://th.bing.com/th?id=OIP._oUvGnT7EaoC5XHrS7VbkwHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+                    alt="" srcset="" class="image1"></marquee>
+        </div>
+        <div class="gallery" id="gallery">
+            <img src="https://th.bing.com/th/id/OIP.defmtwl1SFwOTbtE3mV8cAHaEc?w=311&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+            <img src="https://th.bing.com/th/id/OIP._YYy6s8YyeN8QARP4vGIdQHaEK?w=307&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+            <img src="https://th.bing.com/th/id/OIP.j4E6Si0lROxSJ4EryUr3UgHaEz?w=264&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+        </div>
+        <div class="about-us">
+            <div class="title">
+                <h1 id="about">About us</h1>
+            </div>
+            <blockquote class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod totam perspiciatis
+                quam soluta dolor! Quia, sunt. Enim quod sit consectetur beatae blanditiis libero vitae, repellendus
+                culpa incidunt dicta recusandae numquam quam molestias. Magni, vel odio? Blanditiis perferendis corrupti
+                rerum iusto vel odio non! Maiores in adipisci impedit earum? Voluptatum ipsa inventore rerum laudantium
+                praesentium commodi fugiat non temporibus aspernatur velit ea tempora, quis impedit eligendi sit
+                voluptatibus quaerat et quia ducimus nulla! Molestiae illum impedit eveniet rem, atque expedita, illo
+                fuga eligendi quibusdam fugit consequuntur est facere eum repellat quidem iusto dicta voluptates ratione
+                sint repudiandae facilis? Facere iste facilis neque dicta delectus sunt, dolor molestiae animi
+                cupiditate, voluptatibus sequi rem quia, a omnis perferendis? Aliquid magnam unde, laudantium
+                cupiditate, mollitia aspernatur quae consectetur delectus iste reiciendis, debitis magni! Odio error
+                mollitia eligendi harum temporibus quaerat quo sunt fugit laborum eveniet? Maiores porro, obcaecati,
+                aspernatur cum facilis quibusdam debitis possimus culpa impedit consequatur quo tempore. Tempora quos
+                autem dolor dolores odit ipsa. Voluptatum, hic modi. Ullam vitae adipisci illo ipsam atque eaque
+                incidunt modi neque id provident maiores blanditiis tempora, unde dolore recusandae, et doloribus
+                placeat esse animi quas nemo sunt laborum repellendus! Officiis mollitia ex at? Deserunt asperiores id
+                autem perferendis aliquid officiis delectus amet numquam excepturi itaque veniam modi hic, inventore ad
+                eligendi! Magni voluptate tempora quis vero reiciendis velit ullam excepturi odit asperiores, ea, ipsum
+                pariatur voluptatibus animi nisi neque, facilis placeat eius deleniti. Excepturi sequi ducimus ipsum
+                iure in doloribus aut dolorem atque molestiae vitae fugiat hic, nam optio odio magni esse modi, deserunt
+                inventore nostrum doloremque! Obcaecati modi, quas doloremque saepe nulla officiis quod sint animi
+                repellat sit, culpa vel. Ipsum maiores tempore reprehenderit quae quibusdam iusto maxime? Amet rem
+                perferendis neque cumque labore corporis quam, minus eius quia vel facilis sapiente omnis est, rerum
+                mollitia maxime ipsam culpa unde iusto numquam incidunt accusantium odit eveniet. Soluta ipsa nam
+                accusamus debitis voluptate dolore, voluptatibus consequuntur dolor velit animi totam perspiciatis
+                quaerat tempora omnis veniam architecto placeat, minima tempore? Autem in minus architecto. Eligendi
+                unde aspernatur omnis minima ipsa vero porro quae facilis molestias corrupti. Ab quis quaerat eum, quod
+                fugiat soluta. Dolorum, obcaecati quisquam commodi est hic eius. Facilis dolore tempora impedit vero
+                rerum quas illum corrupti ea explicabo omnis ipsum blanditiis iusto commodi dicta eius hic cum, vitae
+                adipisci eligendi. Possimus magni illum saepe vitae hic? Dolore, porro! Maxime necessitatibus fuga,
+                ducimus laborum veniam minima eos debitis et labore consectetur eveniet dicta dolores aspernatur
+                cupiditate exercitationem distinctio autem voluptatem quos eius. Cum, repellendus fuga cupiditate,
+                labore omnis animi officiis ipsum veritatis minus magnam, excepturi maxime eveniet. Totam deserunt
+                consectetur voluptatibus officia suscipit deleniti ab quod eaque ipsum, quisquam harum ducimus impedit
+                numquam! Nisi, corrupti?</blockquote>
+        </div>
+        <table align="center" id="contact">
+            <form action="" class="form">
+                <tr>
+                    <td> <label for="fname">FirstName</label>
+                        <input type="text" id="fname">
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="phone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone</label>
+                        <input type="tel" id="phone">
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="Gmail">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gmail</label>
+                        <input type="gmail" id="gmail">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="submit" value="submit" id="submit">
+                    </td>
+                </tr>
+
+
+            </form>
+        </table>
+
+    </div>
+
+</body>
+
+</html>
